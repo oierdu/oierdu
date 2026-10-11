@@ -33,11 +33,11 @@ Me gusta entender cómo funciona el software y construir aplicaciones que conect
 Práctica en proyectos, fundamentos académicos y aprendizaje continuo. Cada categoría refleja su alcance; no implica experiencia profesional avanzada en todas las herramientas.
 
 <h3 align="center">Lenguajes y sistemas</h3>
-<p align="center"><img src="assets/skill-python.svg" width="48" height="48" alt="Python" /> <img src="assets/skill-java.svg" width="48" height="48" alt="Java" /> <img src="assets/skill-c.svg" width="48" height="48" alt="C" /> <img src="assets/skill-cpp.svg" width="48" height="48" alt="C++" /> <img src="assets/skill-js.svg" width="48" height="48" alt="JavaScript" /> <img src="assets/skill-ts.svg" width="48" height="48" alt="TypeScript" /></p>
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-1-mobile.svg" /><img src="assets/stack-row-1.svg" width="336" alt="Python · Java · C · C++ · JavaScript · TypeScript" /></picture></p>
 <p align="center">Python · Java · C · C++ · JavaScript · TypeScript · SQL<br/>Python, JavaScript y TypeScript en proyectos; Java, C, C++ y SQL como fundamentos en formación.</p>
 
 <h3 align="center">Frontend</h3>
-<p align="center"><img src="assets/skill-html.svg" width="48" height="48" alt="HTML5" /> <img src="assets/skill-css.svg" width="48" height="48" alt="CSS3" /> <img src="assets/skill-react.svg" width="48" height="48" alt="React" /> <img src="assets/skill-next.svg" width="48" height="48" alt="Next.js" /> <img src="assets/skill-vite.svg" width="48" height="48" alt="Vite" /> <img src="assets/skill-tailwind.svg" width="48" height="48" alt="Tailwind CSS" /></p>
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-2-mobile.svg" /><img src="assets/stack-row-2.svg" width="336" alt="HTML5 · CSS3 · React · Next.js · Vite · Tailwind CSS" /></picture></p>
 <p align="center">HTML5 · CSS3 · React · Next.js · Vite · Tailwind CSS<br/>Interfaces web presentes en los proyectos colaborativos.</p>
 
 <h3 align="center">Backend y bases de datos</h3>
@@ -49,7 +49,7 @@ Práctica en proyectos, fundamentos académicos y aprendizaje continuo. Cada cat
 <p align="center">n8n · integración de modelos · herramientas para agentes<br/>Python aplicado a datos territoriales; ampliando automatización e integración de IA.</p>
 
 <h3 align="center">Herramientas de desarrollo</h3>
-<p align="center"><img src="assets/skill-git.svg" width="48" height="48" alt="Git" /> <img src="assets/skill-github.svg" width="48" height="48" alt="GitHub" /> <img src="assets/skill-vscode.svg" width="48" height="48" alt="VS Code" /> <img src="assets/skill-linux.svg" width="48" height="48" alt="Linux" /> <img src="assets/skill-bash.svg" width="48" height="48" alt="Bash" /></p>
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-3-mobile.svg" /><img src="assets/stack-row-3.svg" width="280" alt="Git · GitHub · VS Code · Linux · Bash" /></picture></p>
 <p align="center">Git · GitHub · VS Code · Linux · Bash<br/>Control de versiones, documentación y fundamentos del entorno de desarrollo.</p>
 
 <h3 align="center">Despliegue y calidad</h3>
@@ -70,7 +70,7 @@ Exploración del acceso sanitario en **88 municipios de Gipuzkoa**, con fuentes 
 
 **Mi aportación:** ingesta oficial, pipeline geoespacial, contratos de calidad e integración reproducible. Desarrollo en **DeustoAI Labs**, junto a **Asier Comba y Hugo Fernández Díez**.
 
-**Top 3 en el hackathon de Gipuzkoa 2026**, según el reconocimiento comunicado al equipo. La cifra y la denominación exacta del evento quedan pendientes de respaldo público.
+**Top 3 en el hackathon de Gipuzkoa 2026**, según el reconocimiento comunicado al equipo.
 
 [Explorar demo](https://asier-comba.github.io/Guipuzkoa360/) · [Caso técnico y contribuciones](projects/gipuzkoa360.md)
 
