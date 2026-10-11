@@ -1,13 +1,35 @@
-<h2><img src="assets/portrait.png" width="44" height="44" alt="Fotografía de Oier" /> Oier Duñabeitia Berezo</h2>
+<h2><img src="assets/portrait.png" width="36" height="36" alt="Fotografía de Oier" /> Oier Duñabeitia Berezo</h2>
 
-**Ingeniería Informática · IA aplicada**  
-Desarrollo web y automatización
+**Ingeniería Informática · Software e IA aplicada**
 
-<p><a href="https://www.linkedin.com/in/oier-du%C3%B1abeitia-a64804362/"><img src="assets/linkedin.svg" width="94" height="30" alt="LinkedIn" /></a> <a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/email.svg" width="78" height="30" alt="Email profesional" /></a> <a href="https://github.com/oierdu"><img src="assets/github-link.svg" width="85" height="30" alt="GitHub" /></a></p>
+<p><a href="https://www.linkedin.com/in/oier-du%C3%B1abeitia-a64804362/"><img src="assets/linkedin.svg" width="84" height="28" alt="LinkedIn" /></a> <a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/email.svg" width="68" height="28" alt="Email profesional" /></a> <a href="https://github.com/oierdu"><img src="assets/github-link.svg" width="76" height="28" alt="GitHub" /></a></p>
 
-Estudio **Ingeniería Informática en Deusto** y he completado el Máster de IA de BIG School. Mi base en lenguajes y bases de datos se amplía con aprendizaje autónomo aplicado a webs, automatizaciones e integraciones de IA. En **DeustoAI Labs** trabajo con datos públicos, geografía y calidad del software.
+<p><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/header-nodes-mobile-still.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="assets/header-nodes-still.svg" /><source media="(max-width: 600px)" srcset="assets/header-nodes-mobile.gif" /><img src="assets/header-nodes.gif" width="640" alt="Red de nodos y conexiones" /></picture></p>
 
-<p><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-static.png" /><img src="assets/terminal.gif" width="280" height="32" alt="Datos, IA y desarrollo" /></picture></p>
+Estudio **Ingeniería Informática en Deusto** y he completado el Máster de IA de BIG School. Desarrollo webs, integraciones y automatizaciones sobre una base de lenguajes y bases de datos, ampliada mediante proyectos y aprendizaje autónomo. En **DeustoAI Labs** trabajo con datos públicos, geografía y calidad del software.
+
+## GIPUZKOA 360
+
+> **IA y datos públicos para explorar el acceso sanitario y la movilidad en Gipuzkoa.**
+>
+> Proyecto de DeustoAI Labs con **Asier Comba y Hugo Fernández Díez**. Mi contribución: ingesta oficial, análisis geoespacial, calidad, reproducibilidad e integración.
+>
+> **Top 3 entre más de 60 equipos**, según comunicación de la organización al equipo del Urban Challenge 2026.
+
+[Repositorio](https://github.com/Asier-Comba/Guipuzkoa360) · [Demo pública](https://asier-comba.github.io/Guipuzkoa360/) · [Equipo y contribuciones](https://github.com/Asier-Comba/Guipuzkoa360/blob/main/docs/TEAM.md)
+
+<details>
+<summary>Captura real y alcance</summary>
+
+<p><a href="https://asier-comba.github.io/Guipuzkoa360/"><img src="assets/gipuzkoa360-demo.jpg" width="260" alt="Captura real de GIPUZKOA 360: mapa y panel de análisis de la demo pública" /></a></p>
+
+88 municipios; fuentes Eustat, geoEuskadi y Open Data Euskadi. La demo muestra **resultados guardados y reproducibles**. Distancia geométrica, tiempos programados y escenarios no acreditan capacidad sanitaria ni citas disponibles.
+
+Final presencial prevista: **17 de octubre de 2026**. Presentación prevista: **5 de noviembre**, City Science Summit, Tabakalera; información facilitada al equipo.
+
+[Guía de demostración](https://github.com/Asier-Comba/Guipuzkoa360/blob/main/docs/DEMO.md) · [Hackathon](https://gipuzkoa-ai-hackathon.com/)
+
+</details>
 
 ## Stack
 
@@ -23,32 +45,9 @@ Fundamentos académicos en lenguajes, tecnologías web y bases de datos; prácti
 
 SQL es el lenguaje de consulta; PostgreSQL y MySQL son los gestores de bases de datos.
 
-## GIPUZKOA 360
+## Proyectos
 
-**IA y datos públicos para explorar el acceso sanitario y la movilidad en Gipuzkoa.** Proyecto de DeustoAI Labs con **Asier Comba y Hugo Fernández Díez**.
-
-Mi trabajo: **ingesta oficial, pipeline geoespacial, controles de calidad, reproducibilidad e integración**. Python, datos públicos, análisis geoespacial y visualización web.
-
-**Top 3 entre más de 60 equipos del Urban Challenge 2026**, según comunicación de la organización al equipo.
-
-[Repositorio](https://github.com/Asier-Comba/Guipuzkoa360) · [Demo pública](https://asier-comba.github.io/Guipuzkoa360/) · [Equipo y contribuciones](https://github.com/Asier-Comba/Guipuzkoa360/blob/main/docs/TEAM.md)
-
-<details>
-<summary>Captura real, metodología y alcance</summary>
-
-<p><a href="https://asier-comba.github.io/Guipuzkoa360/"><img src="assets/gipuzkoa360-demo.jpg" width="360" alt="Captura real de GIPUZKOA 360: mapa y panel de análisis de la demo pública" /></a></p>
-
-88 municipios; fuentes Eustat, geoEuskadi y Open Data Euskadi. La demo muestra **resultados guardados y reproducibles**. Distancia geométrica, tiempos programados y escenarios no acreditan capacidad sanitaria ni citas disponibles.
-
-Final presencial prevista: **17 de octubre de 2026**. Presentación prevista: **5 de noviembre**, City Science Summit, Tabakalera; información facilitada al equipo.
-
-[Guía de demostración](https://github.com/Asier-Comba/Guipuzkoa360/blob/main/docs/DEMO.md) · [Hackathon](https://gipuzkoa-ai-hackathon.com/)
-
-</details>
-
-## Otros proyectos
-
-Proyectos propios y colaborativos. Los enlaces conservan los repositorios originales y la autoría del equipo.
+Desarrollo propio y en colaboración; repositorios y autoría originales.
 
 | Proyecto | Desarrollo y enlaces |
 | :--- | :--- |
