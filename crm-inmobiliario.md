@@ -16,11 +16,15 @@ Reunir clientes, propiedades, oportunidades y calendario en una aplicación web 
 | Automatización | n8n como servicio externo de integración |
 | Interfaz visual | Tailwind CSS y componentes reutilizables |
 
+## Validación del snapshot
+
+Se han ejecutado TypeScript y la compilación de Next.js sobre el snapshot `ad3c06e5e6dca8e9cf0342845f670b1b48478851`. La navegación de dashboard y clientes se ha revisado en modo demo local con datos sintéticos. No se han comprobado servicios externos ni una base de datos real.
+
 ## Estado y límites
 
 La existencia de un módulo en código o documentación no acredita su uso en producción. La referencia documenta una demostración local y conexiones reales pendientes de configuración. No se afirma que todos los canales, automatizaciones o proveedores estén activos.
 
-El código tiene licencia propietaria. Esta presentación contiene únicamente una descripción técnica; se mantienen fuera de ella los datos de clientes, las credenciales, los accesos de prueba y las configuraciones internas.
+No se ha identificado una licencia de republicación del código. Esta presentación contiene únicamente una descripción técnica; se mantienen fuera de ella los datos de clientes, las credenciales, los accesos de prueba y las configuraciones internas.
 
 [Referencia técnica pública: CRM Inmobiliario Demo](https://github.com/iazticontact/crm-inmobiliario-demo/blob/main/README.md)
 
