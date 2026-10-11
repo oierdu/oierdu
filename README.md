@@ -2,7 +2,7 @@
 
 **Ingeniería Informática · Software e IA aplicada**
 
-<p><a href="https://www.linkedin.com/in/oier-du%C3%B1abeitia-a64804362/"><img src="assets/linkedin.svg" width="84" height="28" alt="LinkedIn" /></a> <a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/email.svg" width="68" height="28" alt="Email profesional" /></a> <a href="https://github.com/oierdu"><img src="assets/github-link.svg" width="76" height="28" alt="GitHub" /></a></p>
+<p><a href="https://www.linkedin.com/in/oier-du%C3%B1abeitia-a64804362/"><img src="assets/linkedin.svg?v=e528fa8" width="84" height="28" alt="LinkedIn" /></a> <a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/email.svg?v=e528fa8" width="68" height="28" alt="Email profesional" /></a> <a href="https://github.com/oierdu"><img src="assets/github-link.svg?v=e528fa8" width="76" height="28" alt="GitHub" /></a></p>
 
 <p><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/header-nodes-mobile-still.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="assets/header-nodes-still.svg" /><source media="(max-width: 600px)" srcset="assets/header-nodes-mobile.gif" /><img src="assets/header-nodes.gif" width="640" alt="Red de nodos y conexiones" /></picture></p>
 
