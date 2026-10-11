@@ -17,8 +17,8 @@ Fundamentos académicos en lenguajes, tecnologías web y bases de datos; prácti
 | :--- | :--- |
 | **Lenguajes** | <img src="assets/python.svg" width="24" height="24" alt="Python" /> <img src="assets/java.svg" width="24" height="24" alt="Java" /> <img src="assets/c.svg" width="24" height="24" alt="C" /> <img src="assets/cplusplus.svg" width="24" height="24" alt="C++" /><br/>Python · Java · C · C++ · JavaScript · TypeScript · SQL |
 | **Web** | <img src="assets/html5.svg" width="24" height="24" alt="HTML5" /> <img src="assets/css3.svg" width="24" height="24" alt="CSS3" /> <img src="assets/react.svg" width="24" height="24" alt="React" /> <img src="assets/nextdotjs.svg" width="24" height="24" alt="Next.js" /><br/>HTML5 · CSS3 · React · Next.js · Tailwind CSS |
-| **Bases de<br/>datos / backend** | <img src="assets/postgresql.svg" width="24" height="24" alt="PostgreSQL" /> <img src="assets/mysql.svg" width="24" height="24" alt="MySQL" /> <img src="assets/supabase.svg" width="24" height="24" alt="Supabase" /><br/>PostgreSQL · MySQL · Supabase · integración de APIs |
-| **IA /<br/>automatización** | <img src="assets/n8n.svg" width="24" height="24" alt="n8n" /><br/>Integración de modelos · agentes con herramientas · n8n · APIs de IA |
+| **Bases de<br/>datos /<br/>backend** | <img src="assets/postgresql.svg" width="24" height="24" alt="PostgreSQL" /> <img src="assets/mysql.svg" width="24" height="24" alt="MySQL" /> <img src="assets/supabase.svg" width="24" height="24" alt="Supabase" /><br/>PostgreSQL · MySQL · Supabase · integración de APIs |
+| **IA /<br/>flujos** | <img src="assets/n8n.svg" width="24" height="24" alt="n8n" /><br/>Integración de modelos · agentes con herramientas · n8n · APIs de IA |
 | **Desarrollo /<br/>entrega** | <img src="assets/git.svg" width="24" height="24" alt="Git" /> <img src="assets/githubactions.svg" width="24" height="24" alt="GitHub Actions" /><br/>Git · GitHub · pruebas · Vercel · VPS |
 
 SQL es el lenguaje de consulta; PostgreSQL y MySQL son los gestores de bases de datos.
@@ -52,7 +52,7 @@ Proyectos propios y colaborativos. Los enlaces conservan los repositorios origin
 
 | Proyecto | Desarrollo y enlaces |
 | :--- | :--- |
-| **CRM<br/>inmobiliario** | Prototipo: clientes, inmuebles, oportunidades, calendario y asistente. Integraciones según configuración.<br/>Next.js · TypeScript · Supabase · API de OpenAI · n8n<br/>[Ficha técnica](crm-inmobiliario.md) |
+| **CRM** | **Inmobiliario con IA.** Prototipo: clientes, inmuebles, oportunidades, calendario y asistente. Integraciones según configuración.<br/>Next.js · TypeScript · Supabase · API de OpenAI · n8n<br/>[Ficha técnica](https://github.com/oierdu/oierdu/blob/main/crm-inmobiliario.md) |
 | **Mateo<br/>Von Coach** | Web y plataforma de coaching: servicios, testimonios y reserva de llamadas. Desarrollo en colaboración.<br/>React · Vite · Tailwind CSS · Supabase<br/>[Web](https://mateovoncoach.com/) · [Código](https://github.com/Asier-Comba/Appweb-MateoVonCoach) |
 | **Ahorra<br/>Aislando** | Web de aislamiento: servicios, estudio y contacto. Desarrollo en colaboración.<br/>React · Vite · Tailwind CSS · Framer Motion<br/>[Web](https://web-ahorraaislando.vercel.app/) · [Código](https://github.com/Asier-Comba/web-ahorraaislando) |
 | **Ekin<br/>Zentro** | Web de entrenamiento, nutrición y bienestar en Lekeitio.<br/>[Web](https://www.ekinzentroa.com/) |
