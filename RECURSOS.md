@@ -11,3 +11,6 @@ Cabecera actual: ilustración propia de un editor de código. El nombre permanec
 Las alternativas SVG estáticas se seleccionan mediante `prefers-reduced-motion: reduce`. La cabecera grafito mantiene el mismo fondo en ambos temas para asegurar una presentación estable al cambiar manualmente la apariencia de GitHub. Los textos principales también están escritos en Markdown.
 
 La captura territorial corresponde a la demo pública real de GIPUZKOA 360; se conservan el carácter colaborativo, las fuentes y los límites del análisis. La captura del CRM inmobiliario procede del snapshot documentado ejecutado en modo demo local con datos sintéticos; no contiene datos de clientes reales.
+
+## Rediseño de terminal · 2026-10-12
+Terminal y botones generados para este perfil. GIF decorativo de 17 segundos; sin compilaciones ni despliegues simulados. Iconos locales Skill Icons, commit `7f7e691e71aec64e8354bf697835e009d1ad80f8`, licencia MIT conservada en SkillIcons-LICENSE.txt. Marcas pertenecientes a sus titulares. SQL y APIs se representan mediante texto; el stack distingue alcance.
