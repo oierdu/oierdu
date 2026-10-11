@@ -98,16 +98,16 @@ Las fichas conservan procedencia y colaboración. Los enlaces de código propio 
 
 ## CRM y software empresarial
 
-| Proyecto | Alcance y tecnologías | Documentación |
-| :--- | :--- | :--- |
-| **CRM inmobiliario** | Prototipo de clientes, inmuebles, oportunidades y calendario. Next.js · TypeScript · Supabase. Interfaz de demo con datos sintéticos; asistente e integraciones requieren configuración. | [Caso técnico y captura](crm-inmobiliario.md) |
-| **CRM Telecomunicaciones** | Producto colaborativo en desarrollo. Next.js · TypeScript · Supabase. Demo sintética de dashboard y cartera; snapshot documentado, sin presentarlo como release comercial. | [Estado y procedencia](projects/crm-telecom.md) |
+| Proyecto y documentación | Alcance y tecnologías |
+| :--- | :--- |
+| **[CRM inmobiliario](crm-inmobiliario.md)** | Prototipo de clientes, inmuebles, oportunidades y calendario. Next.js · TypeScript · Supabase. Interfaz de demo con datos sintéticos; asistente e integraciones requieren configuración. |
+| **[CRM Telecomunicaciones](projects/crm-telecom.md)** | Producto colaborativo en desarrollo. Next.js · TypeScript · Supabase. Demo sintética de dashboard y cartera; snapshot documentado, sin presentarlo como release comercial. |
 
 ## Otros desarrollos
 
-| Proyecto | Estado real | Código |
-| :--- | :--- | :--- |
-| **AutoDeusto** | Base académica en C. El programa actual imprime `Prueba`; la arquitectura cliente-servidor permanece como objetivo. | [Repositorio propio](https://github.com/oierdu/AutoDeusto_ProyectoProgIV_Grupos2) |
+| Proyecto y código propio | Estado real |
+| :--- | :--- |
+| **[AutoDeusto](https://github.com/oierdu/AutoDeusto_ProyectoProgIV_Grupos2)** | Base académica en C. El programa actual imprime `Prueba`; la arquitectura cliente-servidor permanece como objetivo. |
 
 ---
 
