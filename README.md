@@ -9,13 +9,7 @@
 <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/editor-dark-mobile-still.svg" />
 <source media="(prefers-reduced-motion: reduce)" srcset="assets/editor-dark-still.svg" />
 <source media="(max-width: 600px)" srcset="assets/editor-dark-mobile.gif" />
-<img src="assets/editor-dark.gif#gh-dark-mode-only" width="680" alt="Oier Duñabeitia: software, datos e IA aplicada. Ilustración de un editor de código." />
-</picture>
-<picture>
-<source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/editor-light-mobile-still.svg" />
-<source media="(prefers-reduced-motion: reduce)" srcset="assets/editor-light-still.svg" />
-<source media="(max-width: 600px)" srcset="assets/editor-light-mobile.gif" />
-<img src="assets/editor-light.gif#gh-light-mode-only" width="680" alt="Oier Duñabeitia: software, datos e IA aplicada. Ilustración de un editor de código." />
+<img src="assets/editor-dark.gif" width="680" alt="Oier Duñabeitia: software, datos e IA aplicada. Ilustración de un editor de código." />
 </picture>
 </p>
 

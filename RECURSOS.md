@@ -6,4 +6,8 @@ Retrato: misma fotografía aportada por Oier en su CV, conservada sin cambios de
 
 Captura de GIPUZKOA 360: demo pública del proyecto colaborativo de DeustoAI Labs; no se atribuye su interfaz a un único integrante.
 
-Botones: composición vectorial propia, con el símbolo de GitHub de Simple Icons y símbolos de contacto. Cabecera de nodos: geometría vectorial propia exportada a GIF animado. Se ha elegido GIF tras comparar tamaño y compatibilidad. Bucle continuo de seis segundos a 20 fotogramas por segundo, con fases periódicas que evitan cortes entre ciclos. La tipografía Manrope se convierte a trazados vectoriales; su licencia OFL está incluida en `Manrope-OFL.txt`. Incluye versión móvil y alternativas SVG estáticas para movimiento reducido; no requiere JavaScript ni estilos externos. Los contenidos principales permanecen como texto del README.
+Cabecera actual: ilustración propia de un editor de código. El nombre permanece visible; la línea de especialidad se escribe, permanece y se borra durante un ciclo continuo de ocho segundos. El GIF de escritorio pesa 73.299 bytes y el móvil 64.726 bytes. No simula una ejecución real ni necesita fuentes remotas, JavaScript o CSS personalizado. La tipografía está convertida a trazados; no se distribuye ningún archivo de fuente del sistema.
+
+Las alternativas SVG estáticas se seleccionan mediante `prefers-reduced-motion: reduce`. La cabecera grafito mantiene el mismo fondo en ambos temas para asegurar una presentación estable al cambiar manualmente la apariencia de GitHub. Los textos principales también están escritos en Markdown.
+
+La captura territorial corresponde a la demo pública real de GIPUZKOA 360; se conservan el carácter colaborativo, las fuentes y los límites del análisis. La captura del CRM inmobiliario procede del snapshot documentado ejecutado en modo demo local con datos sintéticos; no contiene datos de clientes reales.

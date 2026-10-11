@@ -20,6 +20,10 @@ Reunir clientes, propiedades, oportunidades y calendario en una aplicación web 
 
 Se han ejecutado TypeScript y la compilación de Next.js sobre el snapshot `ad3c06e5e6dca8e9cf0342845f670b1b48478851`. La navegación de dashboard y clientes se ha revisado en modo demo local con datos sintéticos. No se han comprobado servicios externos ni una base de datos real.
 
+## Validación del snapshot
+
+Se han ejecutado TypeScript y la compilación de Next.js sobre el snapshot `ad3c06e5e6dca8e9cf0342845f670b1b48478851`. La navegación de dashboard y clientes se ha revisado en modo demo local con datos sintéticos. No se han comprobado servicios externos ni una base de datos real.
+
 ## Estado y límites
 
 La existencia de un módulo en código o documentación no acredita su uso en producción. La referencia documenta una demostración local y conexiones reales pendientes de configuración. No se afirma que todos los canales, automatizaciones o proveedores estén activos.
