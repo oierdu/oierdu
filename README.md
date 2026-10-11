@@ -2,9 +2,9 @@
 
 **Ingeniería Informática · Software e IA aplicada**
 
-<p><a href="https://www.linkedin.com/in/oier-du%C3%B1abeitia-a64804362/"><img src="assets/linkedin.svg?v=e528fa8" width="84" height="28" alt="LinkedIn" /></a> <a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/email.svg?v=e528fa8" width="68" height="28" alt="Email profesional" /></a> <a href="https://github.com/oierdu"><img src="assets/github-link.svg?v=e528fa8" width="76" height="28" alt="GitHub" /></a></p>
+<p><a href="https://www.linkedin.com/in/oier-du%C3%B1abeitia-a64804362/"><img src="assets/linkedin.svg?v=19d3193" width="84" height="32" alt="LinkedIn" /></a> <a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/email.svg?v=19d3193" width="68" height="32" alt="Email profesional" /></a> <a href="https://github.com/oierdu"><img src="assets/github-link.svg?v=19d3193" width="76" height="32" alt="GitHub" /></a></p>
 
-<p><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/header-nodes-mobile-still.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="assets/header-nodes-still.svg" /><source media="(max-width: 600px)" srcset="assets/header-nodes-mobile.gif" /><img src="assets/header-nodes.gif" width="640" alt="Red de nodos y conexiones" /></picture></p>
+<p><picture><source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/header-nodes-mobile-still.svg?v=19d3193" /><source media="(prefers-reduced-motion: reduce)" srcset="assets/header-nodes-still.svg?v=19d3193" /><source media="(max-width: 600px)" srcset="assets/header-nodes-mobile.gif?v=19d3193" /><img src="assets/header-nodes.gif?v=19d3193" width="640" alt="Software e IA aplicada: red de nodos y conexiones" /></picture></p>
 
 Estudio **Ingeniería Informática en Deusto** y he completado el Máster de IA de BIG School. Desarrollo webs, integraciones y automatizaciones sobre una base de lenguajes y bases de datos, ampliada mediante proyectos y aprendizaje autónomo. En **DeustoAI Labs** trabajo con datos públicos, geografía y calidad del software.
 
@@ -37,11 +37,11 @@ Fundamentos académicos en lenguajes, tecnologías web y bases de datos; prácti
 
 | Área | Tecnologías |
 | :--- | :--- |
-| **Lenguajes** | <img src="assets/python.svg" width="24" height="24" alt="Python" /> <img src="assets/java.svg" width="24" height="24" alt="Java" /> <img src="assets/c.svg" width="24" height="24" alt="C" /> <img src="assets/cplusplus.svg" width="24" height="24" alt="C++" /><br/>Python · Java · C · C++ · JavaScript · TypeScript · SQL |
-| **Web** | <img src="assets/html5.svg" width="24" height="24" alt="HTML5" /> <img src="assets/css3.svg" width="24" height="24" alt="CSS3" /> <img src="assets/react.svg" width="24" height="24" alt="React" /> <img src="assets/nextdotjs.svg" width="24" height="24" alt="Next.js" /><br/>HTML5 · CSS3 · React · Next.js · Tailwind CSS |
-| **Bases de<br/>datos /<br/>backend** | <img src="assets/postgresql.svg" width="24" height="24" alt="PostgreSQL" /> <img src="assets/mysql.svg" width="24" height="24" alt="MySQL" /> <img src="assets/supabase.svg" width="24" height="24" alt="Supabase" /><br/>PostgreSQL · MySQL · Supabase · integración de APIs |
-| **IA /<br/>flujos** | <img src="assets/n8n.svg" width="24" height="24" alt="n8n" /><br/>Integración de modelos · agentes con herramientas · n8n · APIs de IA |
-| **Desarrollo /<br/>entrega** | <img src="assets/git.svg" width="24" height="24" alt="Git" /> <img src="assets/githubactions.svg" width="24" height="24" alt="GitHub Actions" /><br/>Git · GitHub · pruebas · Vercel · VPS |
+| **Lenguajes** | <img src="assets/python.svg" width="28" height="28" alt="Python" /> <img src="assets/java.svg" width="28" height="28" alt="Java" /> <img src="assets/c.svg" width="28" height="28" alt="C" /> <img src="assets/cplusplus.svg" width="28" height="28" alt="C++" /><br/>Python · Java · C · C++ · JavaScript · TypeScript · SQL |
+| **Web** | <img src="assets/html5.svg" width="28" height="28" alt="HTML5" /> <img src="assets/css3.svg" width="28" height="28" alt="CSS3" /> <img src="assets/react.svg" width="28" height="28" alt="React" /> <img src="assets/nextdotjs.svg" width="28" height="28" alt="Next.js" /><br/>HTML5 · CSS3 · React · Next.js · Tailwind CSS |
+| **Bases de<br/>datos /<br/>backend** | <img src="assets/postgresql.svg" width="28" height="28" alt="PostgreSQL" /> <img src="assets/mysql.svg" width="28" height="28" alt="MySQL" /> <img src="assets/supabase.svg" width="28" height="28" alt="Supabase" /><br/>PostgreSQL · MySQL · Supabase · integración de APIs |
+| **IA /<br/>flujos** | <img src="assets/n8n.svg" width="28" height="28" alt="n8n" /><br/>Integración de modelos · agentes con herramientas · n8n · APIs de IA |
+| **Desarrollo /<br/>entrega** | <img src="assets/git.svg" width="28" height="28" alt="Git" /> <img src="assets/githubactions.svg" width="28" height="28" alt="GitHub Actions" /><br/>Git · GitHub · pruebas · Vercel · VPS |
 
 SQL es el lenguaje de consulta; PostgreSQL y MySQL son los gestores de bases de datos.
 
