@@ -27,7 +27,9 @@ def terminal(theme, mobile=False):
         pen.line((1, 25, width-2, 25), fill=border)
         for x, color in [(13, '#d69c98'), (27, '#cbbc83'), (41, '#98b7a1')]:
             pen.ellipse((x, 9, x+5, 14), fill=color)
-        pen.text((width-126, 6), 'oierdu / portfolio', font=title_font, fill=muted)
+        pen.text((62, 6), '>_ portfolio', font=title_font, fill=ink)
+        pen.line((61, 24, 144, 24), fill=accent, width=2)
+        pen.text((width-70, 6), '~/oierdu', font=title_font, fill=muted)
         empty = window.copy()
         active, shown = 0, []
         for index, label in enumerate(LABELS):

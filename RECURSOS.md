@@ -37,3 +37,13 @@ La animación anterior `terminal-projects-*` escribe el comando y las áreas del
 La composición actual tiene cuatro líneas y un ciclo de 10 segundos. Escritorio: 500 × 145 px; móvil: 360 × 136 px antes de adaptarse al ancho disponible. En 390 px de viewport, la terminal ocupa aproximadamente 110–125 px de alto.
 
 GitHub reescribe las condiciones de `<source>` que contienen `prefers-color-scheme`, lo que puede eliminar condiciones combinadas de tamaño o movimiento. Para preservar esas condiciones se utilizan dos enlaces con los marcadores de tema de GitHub `#gh-dark-mode-only` y `#gh-light-mode-only`; cada uno contiene su `<picture>` con consultas exclusivamente de ancho y movimiento reducido. No se introduce JavaScript ni CSS propio. Las variantes históricas de 17 segundos quedan conservadas; la presentación usa `terminal-compact-*`.
+
+## Developer Edition
+
+Las cuatro miniaturas web son capturas auténticas de sus portadas públicas tomadas el 12 de octubre de 2026, reducidas sin alterar su contenido. No acreditan pruebas de formularios, cuentas ni resultados comerciales. Se mantienen sus créditos en las fichas. La captura inmobiliaria sigue siendo la demo con datos sintéticos.
+
+Los nuevos paneles de stack reutilizan exactamente los mismos iconos licenciados, con etiquetas y separación uniforme; el nombre Actions corresponde a GitHub Actions. No se añaden tecnologías. Los badges de contacto y Top 3 son SVG originales. Top 3 y el número de equipos son información facilitada por el equipo, con la distinción de fuentes ya documentada en la ficha.
+
+La terminal conserva sus dimensiones y ciclo. Se añade una pestaña activa con indicador discreto y ruta de trabajo; el clic abre directamente el GIF. Se mantienen las alternativas PNG y las condiciones de movimiento reducido. No se altera el avatar de la cuenta.
+
+La miniatura del CRM Telecom reutiliza la captura auténtica conservada en la recuperación anterior: dashboard en modo demo de solo lectura, con datos sintéticos y snapshot indicado en la interfaz. Se reduce sin alterar su contenido. No se han vuelto a probar proveedores, base real ni asistente.
