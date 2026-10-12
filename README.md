@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assets/portrait.png" width="104" height="104" alt="Fotografía de Oier Duñabeitia Berezo" />
+<img src="assets/portrait.png" width="88" height="88" alt="Fotografía de Oier Duñabeitia Berezo" />
 
 # Oier Duñabeitia Berezo
 
-### Ingeniería Informática · Universidad de Deusto
+**Ingeniería Informática · Universidad de Deusto**
 
-**Desarrollo de software · Backend · Aplicaciones web · IA aplicada**
+Aplicaciones web · Software empresarial · Datos e IA aplicada
 
-Me gusta entender cómo funciona el software y construir aplicaciones que conectan interfaces, lógica y datos. En DeustoAI Labs y en proyectos colaborativos convierto ideas en herramientas que se pueden explorar, ejecutar y mejorar.
+Construyo aplicaciones que conectan interfaces, lógica y datos. Estudio en Deusto y desarrollo proyectos colaborativos en DeustoAI Labs.
 
 </div>
 
@@ -21,122 +21,111 @@ Me gusta entender cómo funciona el software y construir aplicaciones que conect
 <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal-dark-mobile.gif" />
 <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.gif" />
 <source media="(max-width: 600px)" srcset="assets/terminal-light-mobile.gif" />
-<img src="assets/terminal-light.gif" width="680" alt="Terminal decorativa: software engineering, backend and databases, applied AI, building useful things. No representa una ejecución real." />
+<img src="assets/terminal-light.gif" width="560" alt="Terminal decorativa: software engineering, backend and databases, applied AI, building useful things. No representa una ejecución real." />
 </picture>
 </p>
-<p align="center"><a href="https://raw.githubusercontent.com/oierdu/oierdu/edb10b5ce53854a0cb1e418c69794f9eff771178/assets/terminal-dark.gif">Ver la animación de terminal</a> · Secuencia decorativa, con alternativa estática para movimiento reducido.</p>
+<p align="center"><a href="https://raw.githubusercontent.com/oierdu/oierdu/edb10b5ce53854a0cb1e418c69794f9eff771178/assets/terminal-dark.gif">Ver la animación de terminal</a> · <a href="RECURSOS.md">Accesibilidad y recursos</a></p>
 
----
 
-## Stack tecnológico
+## GIPUZKOA 360
 
-Práctica en proyectos, fundamentos académicos y aprendizaje continuo. Cada categoría refleja su alcance; no implica experiencia profesional avanzada en todas las herramientas.
+### Una consulta breve. Un recorrido que puede ocupar horas.
 
-<h3 align="center">Lenguajes y sistemas</h3>
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-1-mobile.svg" /><img src="assets/stack-row-1.svg" width="336" alt="Python · Java · C · C++ · JavaScript · TypeScript" /></picture></p>
-<p align="center">Python · Java · C · C++ · JavaScript · TypeScript · SQL<br/>Python, JavaScript y TypeScript en proyectos; Java, C, C++ y SQL como fundamentos en formación.</p>
+Llegar a una consulta médica y volver a casa puede ser más complicado que la propia visita. **GIPUZKOA 360**, un proyecto de **DeustoAI Labs**, estudia las diferencias territoriales en el acceso sanitario de los **88 municipios de Gipuzkoa** con datos públicos oficiales, análisis geoespacial y herramientas para agentes de IA.
 
-<h3 align="center">Frontend</h3>
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-2-mobile.svg" /><img src="assets/stack-row-2.svg" width="336" alt="HTML5 · CSS3 · React · Next.js · Vite · Tailwind CSS" /></picture></p>
-<p align="center">HTML5 · CSS3 · React · Next.js · Vite · Tailwind CSS<br/>Interfaces web presentes en los proyectos colaborativos.</p>
+Permite explorar el mapa, comparar municipios y consultar de dónde sale cada cifra. En los trayectos con datos suficientes, reconstruye escenarios de visita completa —viaje, esperas, paseo, consulta y regreso— con una metodología reproducible y límites explícitos.
 
-<h3 align="center">Backend y bases de datos</h3>
-<p align="center"><img src="assets/skill-postgres.svg" width="48" height="48" alt="PostgreSQL" /> <img src="assets/skill-mysql.svg" width="48" height="48" alt="MySQL" /> <img src="assets/skill-supabase.svg" width="48" height="48" alt="Supabase" /></p>
-<p align="center">PostgreSQL · MySQL · Supabase · APIs<br/>Supabase en los proyectos web; fundamentos de datos y consultas SQL.<br/>Las integraciones externas requieren configuración y validación independiente.</p>
+<p align="center"><a href="https://asier-comba.github.io/Guipuzkoa360/demo.html"><img src="assets/gipuzkoa-territorio.jpg" width="620" alt="Interfaz real de GIPUZKOA 360: mapa municipal, criterios de consulta y resultados con sus fuentes y límites." /></a></p>
 
-<h3 align="center">IA y automatización</h3>
-<p align="center"><img src="assets/n8n.svg" width="48" height="48" alt="n8n" /></p>
-<p align="center">n8n · integración de modelos · herramientas para agentes<br/>Python aplicado a datos territoriales; ampliando automatización e integración de IA.</p>
+**Seleccionado entre los tres mejores proyectos de más de 60 equipos del Gipuzkoa AI Hackathon 2026.** Presentación prevista para el **5 de noviembre de 2026 en Tabakalera, Donostia**, en el City Science Summit: encuentro internacional de la red City Science vinculada al MIT Media Lab. [Contexto y fuentes](projects/gipuzkoa360.md#selección-y-contexto-internacional).
 
-<h3 align="center">Herramientas de desarrollo</h3>
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-3-mobile.svg" /><img src="assets/stack-row-3.svg" width="280" alt="Git · GitHub · VS Code · Linux · Bash" /></picture></p>
-<p align="center">Git · GitHub · VS Code · Linux · Bash<br/>Control de versiones, documentación y fundamentos del entorno de desarrollo.</p>
+Python · pandas · GeoPandas · Eustat · geoEuskadi · Open Data Euskadi
 
-<h3 align="center">Despliegue y calidad</h3>
-<p align="center"><img src="assets/skill-vercel.svg" width="48" height="48" alt="Vercel" /> <img src="assets/githubactions.svg" width="48" height="48" alt="GitHub Actions" /></p>
-<p align="center">Vercel · GitHub Actions · pruebas automatizadas<br/>Webs desplegadas en Vercel; contratos de datos y pruebas en GIPUZKOA 360.</p>
-
----
-
-## Proyecto destacado · GIPUZKOA 360
-
-### Datos para entender el territorio
-
-Exploración del acceso sanitario en **88 municipios de Gipuzkoa**, con fuentes oficiales, análisis geográfico y escenarios reproducibles de visita completa.
-
-**Python · pandas · GeoPandas · datos públicos · herramientas para agentes**
-
-<p align="center"><a href="https://asier-comba.github.io/Guipuzkoa360/demo.html"><img src="assets/gipuzkoa-territorio.jpg" width="460" alt="Captura real de GIPUZKOA 360: mapa municipal y filtros de acceso sanitario." /></a></p>
-
-**Mi aportación:** ingesta oficial, pipeline geoespacial, contratos de calidad e integración reproducible. Desarrollo en **DeustoAI Labs**, junto a **Asier Comba y Hugo Fernández Díez**.
-
-**Top 3 en el hackathon de Gipuzkoa 2026**, según el reconocimiento comunicado al equipo.
-
-[Explorar demo](https://asier-comba.github.io/Guipuzkoa360/) · [Caso técnico y contribuciones](projects/gipuzkoa360.md)
-
-<details>
-<summary>Metodología, créditos y límites del análisis</summary>
-
-La demo territorial utiliza cálculos guardados y reproducibles. Los escenarios combinan horarios programados y paseo modelado en trayectos y fechas con datos suficientes; no representan viajes observados, citas disponibles ni capacidad asistencial. La conversación del portal privado requiere servicios externos y no se presenta como validada.
-
-[Proyecto original](https://github.com/Asier-Comba/Guipuzkoa360) · [Créditos verificables del equipo](https://github.com/Asier-Comba/Guipuzkoa360/blob/main/docs/TEAM.md). La copia propia de código sigue pendiente de autorización de republicación.
-
-</details>
-
----
+**[Explorar el proyecto →](https://asier-comba.github.io/Guipuzkoa360/)** · [Ficha, metodología y equipo](projects/gipuzkoa360.md)
 
 ## Aplicaciones web
 
-| Proyecto | Desarrollo y tecnologías | Explorar |
-| :--- | :--- | :--- |
-| **Mateo Von Coach** | Web de coaching, contenidos y reserva de llamadas; rutas de acceso a clientes. React · Vite · Tailwind CSS · Supabase. Desarrollo colaborativo; backend privado sin verificar. | [Web](https://mateovoncoach.com/) · [Caso técnico](projects/mateo.md) |
-| **Ahorra Aislando** | Servicios de aislamiento térmico, proceso y contacto. React · Vite · Tailwind CSS · Framer Motion. Desarrollo colaborativo; web pública. | [Web](https://web-ahorraaislando.vercel.app/) · [Caso técnico](projects/ahorra.md) |
-| **Ekin Zentro** | Web de entrenamiento, nutrición y bienestar. Fuente original pendiente de recuperación; stack sin confirmar. | [Web](https://www.ekinzentroa.com/) |
-| **Activa Asesores** | Web de asesoría, servicios y contacto. Fuente original pendiente de recuperación; stack sin confirmar. | [Web](https://proyecto-activa-asesores.vercel.app/) |
+### Mateo Von Coach
 
-Las fichas conservan procedencia y colaboración. Los enlaces de código propio se incorporarán cuando exista una copia publicada con los permisos correspondientes.
+Producto digital de coaching que guía al visitante desde la explicación del entrenamiento hasta la reserva de una llamada en Calendly. Combina contenido audiovisual, testimonios y acceso a un área de clientes; la navegación organiza un recorrido claro entre conocer el método, resolver dudas y dar el siguiente paso.
 
-## CRM y software empresarial
+React · Vite · Tailwind CSS · Supabase
 
-| Proyecto | Desarrollo |
-| :--- | :--- |
-| **[CRM inmobiliario](crm-inmobiliario.md)** | Clientes, inmuebles, oportunidades y agenda. **Demo sintética**; integraciones pendientes. Next.js · TypeScript · Supabase. |
-| **[CRM Telecom](projects/crm-telecom.md)** | Dashboard y cartera con datos sintéticos. **En desarrollo**; snapshot de demo, sin release comercial. Next.js · TypeScript · Supabase. |
+[Visitar web →](https://mateovoncoach.com/) · [Explorar la ficha](projects/mateo.md)
 
-## Otros desarrollos
+### Ahorra Aislando
 
-| Código propio | Estado real |
-| :--- | :--- |
-| **[AutoDeusto](https://github.com/oierdu/AutoDeusto_ProyectoProgIV_Grupos2)** | Base académica en C. El programa actual imprime `Prueba`; la arquitectura cliente-servidor permanece como objetivo. |
+Web empresarial para explicar servicios de aislamiento insuflado, corcho proyectado y tratamientos antihumedad. Presenta la propuesta comercial y el proceso desde el diagnóstico hasta la instalación, con páginas de servicios y vías de contacto para solicitar presupuesto.
 
----
+React · Vite · Tailwind CSS · Framer Motion
+
+[Visitar web →](https://web-ahorraaislando.vercel.app/) · [Explorar la ficha](projects/ahorra.md)
+
+### Ekin Zentro
+
+Web de un centro de entrenamiento, nutrición y bienestar en Lekeitio. La experiencia bilingüe en castellano y euskera reúne servicios, equipo y un contacto organizado por objetivos y modalidades, además de acceso directo a WhatsApp.
+
+[Visitar web →](https://www.ekinzentroa.com/) · [Explorar la ficha](projects/ekin.md)
+
+### Activa Asesores
+
+Web para un despacho de asesoría en Fuengirola que organiza servicios fiscales, contables, laborales y mercantiles por necesidades de autónomos, empresas y particulares. Incluye páginas por especialidad, información de contacto y una entrada al portal de clientes y asesores.
+
+[Visitar web →](https://proyecto-activa-asesores.vercel.app/) · [Explorar la ficha](projects/activa.md)
+
+## Software empresarial
+
+### CRM inmobiliario con IA
+
+Prototipo de gestión que reúne **clientes, inmuebles, oportunidades y calendario** para seguir la actividad de una inmobiliaria desde una misma aplicación. El dashboard conecta la cartera y el estado comercial con las tareas de la semana; incorpora una interfaz de asistente contextual y módulos de automatización cuyo alcance depende del modo demo y de los servicios configurados.
+
+<p align="center"><a href="crm-inmobiliario.md"><img src="assets/crm-demo.jpg" width="560" alt="Dashboard real del CRM inmobiliario ejecutado localmente con datos sintéticos; cifras y empresa de ejemplo." /></a></p>
+
+Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS
+
+**[Ver demo documentada →](crm-inmobiliario.md)** · Captura sintética auténtica; conexiones externas y alcance del asistente detallados en la ficha.
+
+### CRM Telecomunicaciones
+
+Plataforma de gestión comercial **en desarrollo** para reunir clientes, cartera de servicios, contratos, SIM y equipos. El prototipo organiza estas piezas junto con atención y documentación en una aplicación web modular, con una demo sintética que permite revisar la interfaz sin exponer información de clientes.
+
+Next.js · React · TypeScript · Supabase
+
+[Explorar módulos y estado del prototipo →](projects/crm-telecom.md)
+
+## Stack tecnológico
+
+Herramientas presentes en los proyectos y en mi formación. Java, C/C++ y MySQL forman parte de la base académica; sigo ampliando backend, automatización e IA aplicada.
+
+### Lenguajes y backend
+
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-1-mobile.svg" /><img src="assets/stack-row-1.svg" width="392" alt="Python · Java · C · C++ · JavaScript · TypeScript · SQL" /></picture></p>
+
+### Desarrollo web y bases de datos
+
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-2-mobile.svg" /><img src="assets/stack-row-2.svg" width="336" alt="React · Next.js · Tailwind CSS · PostgreSQL · MySQL · Supabase" /></picture></p>
+
+### Herramientas, IA y automatización
+
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-3-mobile.svg" /><img src="assets/stack-row-3.svg" width="336" alt="Git · GitHub · VS Code · Vercel · n8n · GitHub Actions" /></picture></p>
 
 ## Sobre mí
 
-**Entender antes de construir.** Estudio Ingeniería Informática en la Universidad de Deusto. Me interesa seguir el recorrido completo de una aplicación: qué necesita la interfaz, cómo responde la lógica y qué información se guarda. Disfruto tanto resolviendo un problema concreto como entendiendo por qué una solución funciona.
+Estudio Ingeniería Informática en la Universidad de Deusto y disfruto siguiendo el recorrido completo de una aplicación: lo que ve una persona, la lógica que responde y los datos que sostienen el resultado. Desarrollo aplicaciones web y software empresarial, y trabajo con datos en proyectos colaborativos de DeustoAI Labs.
 
-**Aprender con proyectos reales.** He participado en aplicaciones web, herramientas empresariales y análisis territorial con IA aplicada. Cada proyecto me obliga a conectar piezas distintas: datos, navegación, integraciones y documentación. Me gusta que el resultado sea útil y que otra persona pueda comprenderlo y continuar el trabajo.
-
-**Trabajar en equipo.** En DeustoAI Labs colaboro con otros estudiantes y desarrolladores. En GIPUZKOA 360 mi trabajo se ha centrado en fuentes oficiales, geografía y calidad de datos. Mantengo visibles las contribuciones de mis compañeros porque el producto es resultado del equipo.
-
-## Actualmente aprendiendo
-
-- **Backend y arquitectura:** diseño de APIs, separación de responsabilidades y modelos de datos.
-- **Calidad de software:** pruebas que comprueban comportamientos, reproducibilidad y documentación útil.
-- **Automatización e IA aplicada:** integración de modelos y herramientas con fuentes y límites claros.
+Ahora estoy profundizando en backend, automatización e inteligencia artificial aplicada. Me gusta construir, comprobar lo que funciona y dejar el trabajo lo bastante claro para que otra persona pueda continuarlo. Aprender con un equipo y resolver problemas concretos es la parte que más me engancha del desarrollo.
 
 ---
 
 <div align="center">
 
-## Contacto profesional
+### Hablemos
 
-Busco oportunidades de desarrollo de software y backend compatibles con mis estudios.
+Busco oportunidades de desarrollo de software compatibles con mis estudios.
 
 <a href="https://www.linkedin.com/in/oier-du%C3%B1abeitia-a64804362/"><img src="assets/contact-linkedin.svg" height="40" alt="LinkedIn de Oier" /></a>
-<a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/contact-email.svg" height="40" alt="Correo profesional de Oier" /></a>
-<a href="https://github.com/oierdu"><img src="assets/contact-github.svg" height="40" alt="GitHub de Oier" /></a>
 <a href="https://oierportfoliotop.vercel.app/"><img src="assets/contact-portfolio.svg" height="40" alt="Portfolio web de Oier" /></a>
+<a href="mailto:oier.dunabeitia@opendeusto.es"><img src="assets/contact-email.svg" height="40" alt="Correo profesional de Oier" /></a>
 
 oier.dunabeitia@opendeusto.es
 
