@@ -28,7 +28,7 @@ Construyo aplicaciones útiles y colaboro en DeustoAI Labs con datos e IA aplica
 </picture>
 </a>
 </p>
-<p align="center"><sub><a href="https://raw.githubusercontent.com/oierdu/oierdu/a6cefbb49dc14626c3cb1c124e12f77b43e2fc4c/assets/terminal-compact-dark.gif">Ver animación</a> · <a href="RECURSOS.md">Accesibilidad</a></sub></p>
+<p align="center"><sub><a href="https://raw.githubusercontent.com/oierdu/oierdu/5c9b9da0e3b4b1b680c399a52d8ef8595e273d71/assets/terminal-compact-dark.gif">Ver animación</a> · <a href="RECURSOS.md">Accesibilidad</a></sub></p>
 
 ## GIPUZKOA 360
 
