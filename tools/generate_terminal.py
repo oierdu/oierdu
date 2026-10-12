@@ -1,6 +1,6 @@
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
-import requests, json, shutil, html
+import json
 R=Path(__file__).resolve().parent.parent
 P=R; A=P/'assets'; A.mkdir(exist_ok=True)
 O=R/'work'; O.mkdir(exist_ok=True); (O/'animation-proof').mkdir(exist_ok=True)
