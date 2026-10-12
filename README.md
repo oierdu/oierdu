@@ -24,7 +24,7 @@ Me gusta entender cómo funciona el software y construir aplicaciones que conect
 <img src="assets/terminal-light.gif" width="680" alt="Terminal decorativa: software engineering, backend and databases, applied AI, building useful things. No representa una ejecución real." />
 </picture>
 </p>
-<p align="center"><a href="assets/terminal-dark.gif">Ver la animación de terminal</a> · Secuencia decorativa, con alternativa estática para movimiento reducido.</p>
+<p align="center"><a href="assets/terminal-dark.gif?raw=1">Ver la animación de terminal</a> · Secuencia decorativa, con alternativa estática para movimiento reducido.</p>
 
 ---
 
