@@ -99,15 +99,15 @@ Herramientas presentes en los proyectos y en mi formación. Java, C/C++ y MySQL 
 
 ### Lenguajes y backend
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-1-mobile.svg" /><img src="assets/stack-row-1.svg" width="392" alt="Python · Java · C · C++ · JavaScript · TypeScript · SQL" /></picture></p>
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-1-compact.svg" /><img src="assets/stack-row-1.svg" width="392" alt="Python · Java · C · C++ · JavaScript · TypeScript · SQL" /></picture></p>
 
 ### Desarrollo web y bases de datos
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-2-mobile.svg" /><img src="assets/stack-row-2.svg" width="336" alt="React · Next.js · Tailwind CSS · PostgreSQL · MySQL · Supabase" /></picture></p>
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-2-compact.svg" /><img src="assets/stack-row-2.svg" width="336" alt="React · Next.js · Tailwind CSS · PostgreSQL · MySQL · Supabase" /></picture></p>
 
 ### Herramientas, IA y automatización
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-3-mobile.svg" /><img src="assets/stack-row-3.svg" width="336" alt="Git · GitHub · VS Code · Vercel · n8n · GitHub Actions" /></picture></p>
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/stack-row-3-compact.svg" /><img src="assets/stack-row-3.svg" width="336" alt="Git · GitHub · VS Code · Vercel · n8n · GitHub Actions" /></picture></p>
 
 ## Sobre mí
 
