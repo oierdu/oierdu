@@ -31,3 +31,9 @@ La nueva captura territorial muestra el mapa completo y la tabla de resultados, 
 ## Acabado de publicación
 
 La terminal escribe progresivamente el comando y las áreas del portfolio, con cursor intermitente y una salida gradual del texto. La ventana permanece estable; el final del bucle coincide con el comienzo vacío. Cuatro GIF de 17 segundos, variantes claras/oscuras y móviles, sin JavaScript ni CSS arbitrario. Los archivos `terminal-projects-*` sustituyen la animación visible; sus PNG estáticos conservan el contenido completo para movimiento reducido.
+
+## Terminal compacta definitiva
+
+La composición actual tiene cuatro líneas y un ciclo de 10 segundos. Escritorio: 500 × 145 px; móvil: 360 × 136 px antes de adaptarse al ancho disponible. En 390 px de viewport, la terminal ocupa aproximadamente 110–120 px de alto dentro del perfil.
+
+GitHub reescribe las condiciones de `<source>` que contienen `prefers-color-scheme`, lo que puede eliminar condiciones combinadas de tamaño o movimiento. Para preservar esas condiciones se utilizan dos enlaces con los marcadores de tema de GitHub `#gh-dark-mode-only` y `#gh-light-mode-only`; cada uno contiene su `<picture>` con consultas exclusivamente de ancho y movimiento reducido. No se introduce JavaScript ni CSS propio. Las variantes históricas de 17 segundos quedan conservadas; la presentación usa `terminal-compact-*`.
