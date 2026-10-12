@@ -4,7 +4,7 @@ Python, pandas y GeoPandas para consultar fuentes oficiales, preparar datos geog
 
 ## Evidencia y límites
 
-La suite Python y 17 pruebas Node de contrato se han ejecutado correctamente. La demo pública muestra cálculos guardados. Horarios programados y paseo modelado no equivalen a tiempos reales ni citas disponibles.
+El 12 de octubre de 2026 se han superado **1.087 pruebas Python** y **17 pruebas Node de contrato** en la copia local recuperada. Se conservan también los commits W1 que las pruebas consultan por su SHA. La demo pública muestra cálculos guardados. Horarios programados y paseo modelado no equivalen a tiempos reales ni citas disponibles. El portal conversacional privado no se ha probado.
 
 ## Procedencia
 
