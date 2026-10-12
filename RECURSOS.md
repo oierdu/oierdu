@@ -27,3 +27,7 @@ Las portadas antiguas retiradas de la raíz siguen disponibles en el historial G
 Tres grupos de stack compuestos con los iconos locales ya licenciados. El icono SQL es una ilustración vectorial original. La captura de CRM se sustituye por la demo sintética auténtica de Next.js 16.4.0; no contiene clientes reales. La terminal conserva sus cuatro GIF, alternativas estáticas y generador, con ancho de presentación de 560 px.
 
 La nueva captura territorial muestra el mapa completo y la tabla de resultados, con sus límites visibles. Cartografía: Eusko Jaurlaritza / Gobierno Vasco (geoEuskadi); población: Eustat; registros sanitarios: Open Data Euskadi. Se conserva la fecha del snapshot: no se recalculan resultados al revisar las fuentes actualizadas.
+
+## Acabado de publicación
+
+La terminal escribe progresivamente el comando y las áreas del portfolio, con cursor intermitente y una salida gradual del texto. La ventana permanece estable; el final del bucle coincide con el comienzo vacío. Cuatro GIF de 17 segundos, variantes claras/oscuras y móviles, sin JavaScript ni CSS arbitrario. Los archivos `terminal-projects-*` sustituyen la animación visible; sus PNG estáticos conservan el contenido completo para movimiento reducido.

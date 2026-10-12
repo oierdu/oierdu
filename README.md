@@ -14,18 +14,20 @@ Construyo aplicaciones que conectan interfaces, lógica y datos. Estudio en Deus
 
 <p align="center">
 <picture>
-<source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal-dark-mobile-still.png" />
-<source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/terminal-dark-still.png" />
-<source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/terminal-light-mobile-still.png" />
-<source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-light-still.png" />
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal-dark-mobile.gif" />
-<source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.gif" />
-<source media="(max-width: 600px)" srcset="assets/terminal-light-mobile.gif" />
-<img src="assets/terminal-light.gif" width="560" alt="Terminal decorativa: software engineering, backend and databases, applied AI, building useful things. No representa una ejecución real." />
+<source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal-projects-dark-mobile-still.png" />
+<source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/terminal-projects-dark-still.png" />
+<source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/terminal-projects-light-mobile-still.png" />
+<source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-projects-light-still.png" />
+<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal-projects-dark-mobile.gif" />
+<source media="(prefers-color-scheme: dark)" srcset="assets/terminal-projects-dark.gif" />
+<source media="(max-width: 600px)" srcset="assets/terminal-projects-light-mobile.gif" />
+<img src="assets/terminal-projects-light.gif" width="560" alt="Terminal decorativa: GIPUZKOA 360, web applications, enterprise software, backend and databases, applied AI. No representa una ejecución real." />
 </picture>
 </p>
-<p align="center"><a href="https://raw.githubusercontent.com/oierdu/oierdu/edb10b5ce53854a0cb1e418c69794f9eff771178/assets/terminal-dark.gif">Ver la animación de terminal</a> · <a href="RECURSOS.md">Accesibilidad y recursos</a></p>
+<p align="center"><a href="https://raw.githubusercontent.com/oierdu/oierdu/edb10b5ce53854a0cb1e418c69794f9eff771178/assets/terminal-projects-dark.gif">Ver la animación de terminal</a> · <a href="RECURSOS.md">Accesibilidad y recursos</a></p>
 
+
+<p align="center"><a href="#gipuzkoa-360">GIPUZKOA 360</a> · <a href="#aplicaciones-web">Aplicaciones web</a> · <a href="#software-empresarial">Software empresarial</a></p>
 
 ## GIPUZKOA 360
 
@@ -37,7 +39,9 @@ Permite explorar el mapa, comparar municipios y consultar de dónde sale cada ci
 
 <p align="center"><a href="https://asier-comba.github.io/Guipuzkoa360/demo.html"><img src="assets/gipuzkoa-territorio.jpg" width="620" alt="Interfaz real de GIPUZKOA 360: mapa municipal, criterios de consulta y resultados con sus fuentes y límites." /></a></p>
 
-**Seleccionado entre los tres mejores proyectos de más de 60 equipos del Gipuzkoa AI Hackathon 2026.** Presentación prevista para el **5 de noviembre de 2026 en Tabakalera, Donostia**, en el City Science Summit: encuentro internacional de la red City Science vinculada al MIT Media Lab. [Contexto y fuentes](projects/gipuzkoa360.md#selección-y-contexto-internacional).
+> **Seleccionado entre los tres mejores proyectos de más de 60 equipos del Gipuzkoa AI Hackathon 2026.**
+>
+> Presentación prevista para el **5 de noviembre de 2026 en Tabakalera, Donostia**, en el City Science Summit: encuentro internacional de la red City Science vinculada al MIT Media Lab. [Contexto y fuentes](projects/gipuzkoa360.md#selección-y-contexto-internacional).
 
 Python · pandas · GeoPandas · Eustat · geoEuskadi · Open Data Euskadi
 
@@ -113,7 +117,7 @@ Herramientas presentes en los proyectos y en mi formación. Java, C/C++ y MySQL 
 
 Estudio Ingeniería Informática en la Universidad de Deusto y disfruto siguiendo el recorrido completo de una aplicación: lo que ve una persona, la lógica que responde y los datos que sostienen el resultado. Desarrollo aplicaciones web y software empresarial, y trabajo con datos en proyectos colaborativos de DeustoAI Labs.
 
-Ahora estoy profundizando en backend, automatización e inteligencia artificial aplicada. Me gusta construir, comprobar lo que funciona y dejar el trabajo lo bastante claro para que otra persona pueda continuarlo. Aprender con un equipo y resolver problemas concretos es la parte que más me engancha del desarrollo.
+Ahora estoy profundizando en backend y bases de datos, automatización e inteligencia artificial aplicada. Me gusta construir, comprobar lo que funciona y dejar el trabajo lo bastante claro para que otra persona pueda continuarlo. Aprender con un equipo y resolver problemas concretos es la parte que más me engancha del desarrollo.
 
 ---
 
