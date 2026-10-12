@@ -1,13 +1,19 @@
 # Mateo Von Coach
 
-Web y plataforma de coaching: páginas públicas, contenidos, reserva de llamadas y rutas protegidas de clientes y administración. React 18, Vite, Tailwind CSS y cliente Supabase. Desarrollo colaborativo; la participación de Oier se recoge sin atribuirle todo el proyecto.
+Producto digital de coaching para presentar el método y conectar al visitante con una llamada de valoración. La web pública actual utiliza la identidad **Metafit Coaching by Mateo von Wuthenau**; el nombre del proyecto conserva su referencia original.
 
-## Evidencia y límites
+## Experiencia y funciones
 
-La compilación Vite se ha ejecutado correctamente. El snapshot de código y la portada desplegada no son idénticos: el sitio público presenta una portada posterior. No se han probado las rutas autenticadas, las políticas de base de datos ni resultados de coaching. Las afirmaciones comerciales del sitio corresponden a su contenido, no a métricas del desarrollo.
+La portada reúne explicación del servicio, vídeo, testimonios, preguntas frecuentes, enlaces a Calendly y acceso a clientes. El recorrido propone conocer primero el enfoque y reservar después una conversación. Se han observado las rutas públicas y los destinos de reserva; no se ha enviado una reserva ni comprobado la reproducción completa de vídeos externos.
 
-## Procedencia
+El código recuperado contiene rutas de clientes y administración, autenticación con Supabase y módulos de recursos y mensajería. **La presencia de estos módulos no acredita el funcionamiento de un backend real ni su uso en producción**. No se probaron cuentas, permisos de base de datos o resultados de entrenamiento.
 
-[Repositorio original y créditos](https://github.com/Asier-Comba/Appweb-MateoVonCoach). Snapshot revisado: `df65902bfa31946abbd60eff3c41f4ed751480a5`.
+## Tecnología, procedencia y créditos
 
-[Volver al portfolio](../README.md)
+React 18, Vite, Tailwind CSS y cliente Supabase, verificados en el snapshot recuperado. El despliegue actual contiene una portada posterior y no se presenta como una reproducción exacta del snapshot.
+
+Desarrollo colaborativo. El sitio público acredita a **iazti.com**; se conserva este crédito y el historial con todos sus autores. Esta ficha no atribuye el producto completo exclusivamente a Oier. [Repositorio original y autores](https://github.com/Asier-Comba/Appweb-MateoVonCoach), snapshot `df65902bfa31946abbd60eff3c41f4ed751480a5`.
+
+La preparación local superó instalación limpia, lint y build. Persisten avisos altos en dependencias y permisos de republicación pendientes; el código preparado no se ha publicado. Las promesas y testimonios comerciales de la web no se presentan como métricas del desarrollo.
+
+[Visitar web](https://mateovoncoach.com/) · [Volver al perfil](../README.md)

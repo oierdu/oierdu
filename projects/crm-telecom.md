@@ -1,13 +1,21 @@
 # CRM Telecomunicaciones
 
-Producto web colaborativo en desarrollo con Next.js, React, TypeScript y Supabase. No se presenta como una entrega comercial lanzada ni como trabajo exclusivo de Oier.
+Plataforma colaborativa de gestión comercial **en desarrollo**. Su prototipo reúne clientes y cartera con servicios, contratos, SIM, equipos, atención y documentación para organizar el contexto de una relación comercial de telecomunicaciones.
 
-## Evidencia y límites
+## Módulos y arquitectura general
 
-La rama predeterminada y el snapshot de aplicación tienen alcances distintos. El snapshot auditado pertenece a w2/product-integration-v2; TypeScript ha pasado. No se declaran verificadas integraciones reales, ni se publican configuraciones internas, secretos o datos de empresas.
+El snapshot contiene rutas y componentes para dashboard, clientes, cartera de servicios, contratos, SIM, equipos, catálogo, atención y documentos. Dashboard y cartera fueron revisados con datos sintéticos. La existencia del resto de módulos en código no acredita su funcionamiento completo contra proveedores reales.
 
-## Procedencia
+Aplicación modular con Next.js, React y TypeScript, e integración con Supabase. La descripción pública se limita al alcance del producto y a estas tecnologías; no divulga arquitectura interna detallada, configuración operativa ni datos de empresas.
 
-[Repositorio original y créditos](https://github.com/Asier-Comba/CRM-Telecomunicaciones). Snapshot revisado: `99f1417bdae138cba8396b41e40db99d1129998b`.
+## Estado y validación
 
-[Volver al portfolio](../README.md)
+El snapshot auditado procede de `w2/product-integration-v2`, commit `99f1417bdae138cba8396b41e40db99d1129998b`. La rama predeterminada `w4/security-baseline` tiene otro alcance y no se presenta como una release comercial.
+
+TypeScript y cinco pruebas de aislamiento de la demo superados en la preparación anterior. No se han vuelto a ejecutar para este cambio editorial. No se probaron base real, proveedores de telecomunicaciones ni integraciones externas. La copia propia continúa local por permisos de republicación y avisos altos de dependencias pendientes.
+
+## Procedencia y créditos
+
+[Repositorio original y autores](https://github.com/Asier-Comba/CRM-Telecomunicaciones). Se conserva el historial y la autoría colaborativa, sin atribuir el producto completo a Oier ni modificar originales o despliegues.
+
+[Volver al perfil](../README.md)
