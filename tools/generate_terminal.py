@@ -32,7 +32,7 @@ def terminal(theme, mobile=False):
         active, shown = 0, []
         for index, label in enumerate(LABELS):
             assert pen.textlength(label, font=font) + 28 < width
-            count = len(label) if still else min(len(label), max(0, int((seconds-STARTS[index])*FPS)))
+            count = len(label) if still else min(len(label), max(0, round((seconds-STARTS[index])*FPS)))
             shown.append(label[:count])
             if count: active = index
             pen.text((16, y_start+index*line_height), label[:count], font=font, fill=accent if index == 0 else ink if index < 3 else muted)
