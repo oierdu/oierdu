@@ -1,33 +1,34 @@
 <div align="center">
 
-<img src="assets/portrait.png" width="88" height="88" alt="Fotografía de Oier Duñabeitia Berezo" />
+<img src="assets/portrait.png" width="72" height="72" alt="Fotografía de Oier Duñabeitia Berezo" />
 
 # Oier Duñabeitia Berezo
 
-**Ingeniería Informática · Universidad de Deusto**
+<p><strong>Ingeniería Informática — Universidad de Deusto</strong><br/>Desarrollo de software · Web · Software empresarial</p>
 
-Aplicaciones web · Software empresarial · Datos e IA aplicada
-
-Construyo aplicaciones que conectan interfaces, lógica y datos. Estudio en Deusto y desarrollo proyectos colaborativos en DeustoAI Labs.
+Construyo aplicaciones útiles y colaboro en DeustoAI Labs con datos e IA aplicada.
 
 </div>
 
 <p align="center">
+<a href="assets/terminal-compact-dark.gif#gh-dark-mode-only">
 <picture>
-<source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal-projects-dark-mobile-still.png" />
-<source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/terminal-projects-dark-still.png" />
-<source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/terminal-projects-light-mobile-still.png" />
-<source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-projects-light-still.png" />
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/terminal-projects-dark-mobile.gif" />
-<source media="(prefers-color-scheme: dark)" srcset="assets/terminal-projects-dark.gif" />
-<source media="(max-width: 600px)" srcset="assets/terminal-projects-light-mobile.gif" />
-<img src="assets/terminal-projects-light.gif" width="560" alt="Terminal decorativa: GIPUZKOA 360, web applications, enterprise software, backend and databases, applied AI. No representa una ejecución real." />
+<source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/terminal-compact-dark-mobile-still.png" />
+<source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-compact-dark-still.png" />
+<source media="(max-width: 600px)" srcset="assets/terminal-compact-dark-mobile.gif" />
+<img src="assets/terminal-compact-dark.gif" width="500" alt="Terminal decorativa: portfolio, GIPUZKOA 360, aplicaciones web y software empresarial, backend, datos e IA aplicada. No representa una ejecución real." />
 </picture>
+</a>
+<a href="assets/terminal-compact-light.gif#gh-light-mode-only">
+<picture>
+<source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/terminal-compact-light-mobile-still.png" />
+<source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-compact-light-still.png" />
+<source media="(max-width: 600px)" srcset="assets/terminal-compact-light-mobile.gif" />
+<img src="assets/terminal-compact-light.gif" width="500" alt="Terminal decorativa: portfolio, GIPUZKOA 360, aplicaciones web y software empresarial, backend, datos e IA aplicada. No representa una ejecución real." />
+</picture>
+</a>
 </p>
-<p align="center"><a href="https://raw.githubusercontent.com/oierdu/oierdu/46af2e50082c28336b5f9d869f0ff15b4ad9679f/assets/terminal-projects-dark.gif">Ver la animación de terminal</a> · <a href="RECURSOS.md">Accesibilidad y recursos</a></p>
-
-
-<p align="center"><a href="#gipuzkoa-360">GIPUZKOA 360</a> · <a href="#aplicaciones-web">Aplicaciones web</a> · <a href="#software-empresarial">Software empresarial</a></p>
+<p align="center"><sub><a href="https://raw.githubusercontent.com/oierdu/oierdu/5c9b9da0e3b4b1b680c399a52d8ef8595e273d71/assets/terminal-compact-dark.gif">Ver animación</a> · <a href="RECURSOS.md">Accesibilidad</a></sub></p>
 
 ## GIPUZKOA 360
 
@@ -37,7 +38,7 @@ Llegar a una consulta médica y volver a casa puede ser más complicado que la p
 
 Permite explorar el mapa, comparar municipios y consultar de dónde sale cada cifra. En los trayectos con datos suficientes, reconstruye escenarios de visita completa —viaje, esperas, paseo, consulta y regreso— con una metodología reproducible y límites explícitos.
 
-<p align="center"><a href="https://asier-comba.github.io/Guipuzkoa360/demo.html"><img src="assets/gipuzkoa-territorio.jpg" width="620" alt="Interfaz real de GIPUZKOA 360: mapa municipal, criterios de consulta y resultados con sus fuentes y límites." /></a></p>
+<p align="center"><a href="https://asier-comba.github.io/Guipuzkoa360/demo.html"><img src="assets/gipuzkoa-territorio.jpg" width="580" alt="Interfaz real de GIPUZKOA 360: mapa municipal, criterios de consulta y resultados con sus fuentes y límites." /></a></p>
 
 > **Seleccionado entre los tres mejores proyectos de más de 60 equipos del Gipuzkoa AI Hackathon 2026.**
 >

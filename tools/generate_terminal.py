@@ -1,45 +1,63 @@
+"""Generate the compact decorative terminal and reduced-motion images."""
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageChops
 import json
-R=Path(__file__).resolve().parent.parent
-P=R; A=P/'assets'; A.mkdir(exist_ok=True)
-O=R/'work'; O.mkdir(exist_ok=True); (O/'animation-proof').mkdir(exist_ok=True)
-mono=ImageFont.truetype('C:/Windows/Fonts/consola.ttf',18)
-def terminal(theme,mobile=False):
-    w,h=(360,218) if mobile else (680,208)
-    bg,top,ink,muted,line=('#171c23','#202731','#e6edf3','#9ba8b8','#343e4b') if theme=='dark' else ('#faf9f5','#eeede7','#252b34','#66717f','#deded4')
-    font=ImageFont.truetype('C:/Windows/Fonts/consola.ttf',15 if mobile else 18)
-    title=ImageFont.truetype('C:/Windows/Fonts/consola.ttf',12)
-    labels=['~/oierdu $ ./portfolio','> GIPUZKOA 360','> Web applications','> Enterprise software','> Backend & databases','> Applied AI']
-    starts=[0.3,2.0,3.8,5.6,7.3,8.8]
-    def draw(t,still=False):
-        im=Image.new('RGB',(w,h),bg);d=ImageDraw.Draw(im)
-        d.rounded_rectangle((0,0,w-1,h-1),radius=12,fill=bg,outline=line,width=1)
-        d.rounded_rectangle((1,1,w-2,35),radius=11,fill=top);d.rectangle((1,23,w-2,35),fill=top)
-        for x,c in [(18,'#e89c94'),(35,'#dbbd7a'),(52,'#93bea1')]:d.ellipse((x,14,x+7,21),fill=c)
-        d.text((w-132,11),'portfolio / oierdu',font=title,fill=muted)
-        empty=im.copy()
-        active=0;shown=[]
-        for i,label in enumerate(labels):
-            n=len(label) if still else min(len(label),max(0,round((t-starts[i])/0.05)))
-            shown.append(label[:n])
-            if n:active=i
-            color=('#a7d7b5' if theme=='dark' else '#276747') if i in [0,5] else (ink if i<4 else muted)
-            d.text((20,48+i*25),label[:n],font=font,fill=color)
-        if not still and t>=starts[0] and int(t*2)%2==0:
-            x=20+d.textlength(shown[active],font=font);y=48+active*25
-            d.rectangle((x+2,y+2,x+10,y+18),fill='#a7d7b5' if theme=='dark' else '#276747')
-        # Fade only the text and cursor; the terminal window remains stable.
-        # The final second matches the first frame, avoiding a jump at the loop.
-        if not still and t>=13.5:
-            im=Image.blend(empty,im,max(0.0,1.0-(t-13.5)/2.5))
-        return im
-    frames=[draw(i/20) for i in range(340)]
-    name=f'terminal-projects-{theme}'+('-mobile' if mobile else '')
-    frames[0].save(A/(name+'.gif'),save_all=True,append_images=frames[1:],duration=50,loop=0,optimize=True,disposal=1)
-    draw(11,True).save(A/(name+'-still.png'),optimize=True)
-    for seconds in [20,40]:draw(seconds%17).save(O/'animation-proof'/f'{name}-{seconds}s.png')
-    gif=Image.open(A/(name+'.gif'))
-    return {'file':name+'.gif','bytes':(A/(name+'.gif')).stat().st_size,'frames':gif.n_frames,'duration_ms':sum((gif.seek(i) or gif.info['duration']) for i in range(gif.n_frames)),'loop':gif.info.get('loop')}
-qa=[terminal(t,m) for t in ['dark','light'] for m in [False,True]]
-(O/'animation-proof/encoding.json').write_text(json.dumps(qa,indent=2),encoding='utf-8')
+ROOT = Path(__file__).resolve().parent.parent
+ASSETS = ROOT / 'assets'
+PROOF = ROOT / 'work/animation-proof'
+ASSETS.mkdir(exist_ok=True)
+PROOF.mkdir(parents=True, exist_ok=True)
+FPS, SECONDS = 20, 10
+LABELS = ['~/oierdu $ ./portfolio', '> GIPUZKOA 360', '> web & business software', '> backend, data & applied AI']
+STARTS = [0.25, 1.8, 3.0, 4.7]
+
+def terminal(theme, mobile=False):
+    width, height = (360, 136) if mobile else (500, 145)
+    colors = (('#151a22', '#202731', '#e6edf3', '#a3afbc', '#343e4b', '#a7d7b5') if theme == 'dark' else ('#fafaf7', '#eceeea', '#252b34', '#596875', '#d4d9d4', '#276747'))
+    background, bar, ink, muted, border, accent = colors
+    font = ImageFont.truetype('C:/Windows/Fonts/consola.ttf', 15 if mobile else 16)
+    title_font = ImageFont.truetype('C:/Windows/Fonts/consola.ttf', 11)
+    y_start, line_height = (33, 22) if mobile else (37, 23)
+    def draw(seconds, still=False):
+        window = Image.new('RGB', (width, height), background)
+        pen = ImageDraw.Draw(window)
+        pen.rounded_rectangle((0, 0, width-1, height-1), radius=8, fill=background, outline=border)
+        pen.rounded_rectangle((1, 1, width-2, 25), radius=7, fill=bar)
+        pen.rectangle((1, 18, width-2, 25), fill=bar)
+        pen.line((1, 25, width-2, 25), fill=border)
+        for x, color in [(13, '#d69c98'), (27, '#cbbc83'), (41, '#98b7a1')]:
+            pen.ellipse((x, 9, x+5, 14), fill=color)
+        pen.text((width-126, 6), 'oierdu / portfolio', font=title_font, fill=muted)
+        empty = window.copy()
+        active, shown = 0, []
+        for index, label in enumerate(LABELS):
+            assert pen.textlength(label, font=font) + 28 < width
+            count = len(label) if still else min(len(label), max(0, round((seconds-STARTS[index])*FPS)))
+            shown.append(label[:count])
+            if count: active = index
+            pen.text((16, y_start+index*line_height), label[:count], font=font, fill=accent if index == 0 else ink if index < 3 else muted)
+        if not still and seconds >= STARTS[0] and int(seconds*2) % 2 == 0:
+            x = 16+pen.textlength(shown[active], font=font)
+            y = y_start+active*line_height
+            pen.rectangle((x+2, y+3, x+8, y+16), fill=accent)
+        # The window stays stable; only its contents fade before the next cycle.
+        if not still and seconds >= 8:
+            window = Image.blend(empty, window, max(0.0, 1-(seconds-8)/1.5))
+        return window
+    frames = [draw(i/FPS) for i in range(FPS*SECONDS)]
+    name = f'terminal-compact-{theme}' + ('-mobile' if mobile else '')
+    frames[0].save(ASSETS/(name+'.gif'), save_all=True, append_images=frames[1:], duration=1000//FPS, loop=0, optimize=True, disposal=1)
+    draw(7, still=True).save(ASSETS/(name+'-still.png'), optimize=True)
+    gif = Image.open(ASSETS/(name+'.gif'))
+    first, total = gif.convert('RGB'), 0
+    for index in range(gif.n_frames):
+        gif.seek(index)
+        total += gif.info['duration']
+    seamless = ImageChops.difference(first, gif.convert('RGB')).getbbox() is None
+    assert total == SECONDS*1000 and seamless
+    for seconds in [1, 4, 7, 9, 11, 24, 31]: draw(seconds % SECONDS).save(PROOF/f'{name}-{seconds}s.png')
+    return {'file': name+'.gif', 'dimensions': [width, height], 'bytes': (ASSETS/(name+'.gif')).stat().st_size, 'frames': gif.n_frames, 'duration_ms': total, 'loop': gif.info.get('loop'), 'first_equals_last': seamless}
+
+if __name__ == '__main__':
+    qa = [terminal(theme, mobile) for theme in ['dark', 'light'] for mobile in [False, True]]
+    (PROOF/'encoding.json').write_text(json.dumps(qa, indent=2), encoding='utf-8')
