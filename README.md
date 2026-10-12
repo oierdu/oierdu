@@ -24,7 +24,7 @@ Construyo aplicaciones que conectan interfaces, lógica y datos. Estudio en Deus
 <img src="assets/terminal-projects-light.gif" width="560" alt="Terminal decorativa: GIPUZKOA 360, web applications, enterprise software, backend and databases, applied AI. No representa una ejecución real." />
 </picture>
 </p>
-<p align="center"><a href="https://raw.githubusercontent.com/oierdu/oierdu/edb10b5ce53854a0cb1e418c69794f9eff771178/assets/terminal-projects-dark.gif">Ver la animación de terminal</a> · <a href="RECURSOS.md">Accesibilidad y recursos</a></p>
+<p align="center"><a href="https://raw.githubusercontent.com/oierdu/oierdu/46af2e50082c28336b5f9d869f0ff15b4ad9679f/assets/terminal-projects-dark.gif">Ver la animación de terminal</a> · <a href="RECURSOS.md">Accesibilidad y recursos</a></p>
 
 
 <p align="center"><a href="#gipuzkoa-360">GIPUZKOA 360</a> · <a href="#aplicaciones-web">Aplicaciones web</a> · <a href="#software-empresarial">Software empresarial</a></p>
