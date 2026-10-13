@@ -6,7 +6,7 @@
 
 <p><strong>Ingeniería Informática — Universidad de Deusto</strong><br/>Desarrollo de software · Web · Software empresarial</p>
 
-Construyo aplicaciones útiles y colaboro en DeustoAI Labs con datos e IA aplicada.
+Me gusta convertir ideas en aplicaciones útiles: desarrollo web, herramientas de gestión y proyectos basados en datos. Aquí comparto lo que construyo y sigo aprendiendo.
 
 </div>
 
@@ -35,7 +35,7 @@ Construyo aplicaciones útiles y colaboro en DeustoAI Labs con datos e IA aplica
 
 ### Una consulta breve. Un recorrido que puede ocupar horas.
 
-Llegar a una consulta médica y volver a casa puede ser más complicado que la propia visita. En **DeustoAI Labs** desarrollamos **GIPUZKOA 360** para estudiar el acceso sanitario de los **88 municipios de Gipuzkoa** con datos oficiales, análisis geoespacial y herramientas para agentes de IA.
+Llegar a una consulta médica y volver a casa puede ser más complicado que la propia visita. GIPUZKOA 360 es uno de los proyectos que he desarrollado en equipo para estudiar diferencias territoriales en el acceso sanitario de los 88 municipios de Gipuzkoa, combinando datos oficiales, análisis geoespacial y herramientas para agentes de IA.
 
 El mapa permite comparar municipios y consultar las fuentes de cada cifra. Donde hay datos suficientes, reconstruye la visita completa: viaje, esperas, paseo, consulta y regreso. La metodología y sus límites están documentados.
 
@@ -51,7 +51,7 @@ Python · pandas · GeoPandas · Eustat · geoEuskadi · Open Data Euskadi
 
 ## 🚀 Aplicaciones web
 
-Proyectos colaborativos. Las fichas recogen el alcance, el estado y los créditos.
+Una selección de aplicaciones web en las que he trabajado, desde servicios profesionales hasta productos digitales. Cada ficha recoge el alcance, el estado y los créditos.
 
 ### Mateo Von Coach
 
@@ -129,9 +129,9 @@ Tecnologías de mis proyectos y formación. Java, C/C++ y MySQL forman parte de 
 
 ## 👨‍💻 Sobre mí
 
-Estudio Ingeniería Informática en la Universidad de Deusto. Me interesa cómo encajan las piezas de una aplicación: la interfaz, la lógica y los datos. Construyo webs y software empresarial, y colaboro en DeustoAI Labs con datos e IA aplicada.
+Estudio Ingeniería Informática en la Universidad de Deusto. Me gusta construir aplicaciones de principio a fin: diseñar una interfaz clara, desarrollar la lógica y organizar los datos para que todo funcione como un conjunto. He trabajado en webs, herramientas de gestión y proyectos de análisis territorial.
 
-Ahora estoy profundizando en backend, bases de datos y automatización. Disfruto aprendiendo con un equipo, probando ideas en aplicaciones reales y dejando el trabajo claro para que otra persona pueda continuarlo.
+Ahora estoy profundizando en backend, bases de datos, automatización y calidad del software. Disfruto resolviendo problemas concretos, aprendiendo con cada proyecto y convirtiendo ideas en aplicaciones útiles, bien organizadas y fáciles de mantener.
 
 ---
 
